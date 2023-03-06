@@ -1,0 +1,119 @@
+/* Set background color to marvelBlue */
+
+body{
+font-family: 'Lato', sans-serif;
+}
+body {
+    background-color: #518cca;
+  }
+/*   
+  Add styles to the navigation bar  */
+  nav {
+    background-color: #e23636;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav li a:hover {
+    background-color: #ffb000;
+  }
+  
+  /* Add styles to the header and paragraph tags */
+  h1  {
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    font-style: bold; 
+  } 
+
+.about-buttons{
+    display: flex;
+    margin: 2rem 0;
+}
+.button{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 130px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color: white;
+}
+.button.button-marvelRed {
+    background: #e23636;
+    color: white;
+    border-color: #ffb000;
+    transition: all 0.5s ease-in-out;
+}
+
+/* when over the button, place marvelblue */
+.button.button-marvelRed:hover{
+    background: transparent;
+    border-color: #ffb000;
+    color: #518cca;
+}
+
+.button.button-marvelRed2{
+    background: #e23636;
+    color: white;
+    border-color: #518cca;
+    transition: all 0.5s ease-in-out;
+}
+
+.button.button-marvelRed2:hover{
+    background: transparent;
+    border-color: white;
+    color: #518cca;
+}
+
+ol {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    margin: 20px;
+    font-size: 16px; 
+  } 
+
+  .container {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 16px; 
+  } 
+
+  footer {
+    background-color: #e23636;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  

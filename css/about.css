@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poiret+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Lato', sans-serif;
+}
+
+.about-wrapper{
+    height: 100vh;
+}
+/* about left section where the background turns red */
+.about-left{
+    background-color: #518cca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color:white;
+}
+.about-left-content > div{
+    background: #e23636;
+    padding: 4rem 4rem 2.5rem 5rem;
+    text-align: center;
+    
+    border-radius: 12px 12px 0 0;
+}
+.about-img img{
+    display: block;
+    width: 200px;
+}
+.about-img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+.centerImage-leftContent {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.about-left-content h2{
+    font-size: 2rem;
+    margin: 2.2rem 0 0.6rem 0;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e23636;
+}
+.about-left-content h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-top: 1.2rem;
+}
+
+/* place image relative in the middle */
+.about-left{
+    position: relative;
+}
+
+/* makes image look like a card due to width size */
+.about-left-content{
+    position: absolute;
+    width:80%
+
+}
+/* /*added a white box for decor */
+.boxBottom-left{
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+    border-radius: 0 0 12px 12px;
+}
+/* color marvel blue background color */
+.about-right{
+    background: #e23636;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    text-align: center;
+    color: white;
+}
+
+/* hire me header large */
+.about-right h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.about-right h2{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.about-buttons{
+    display: flex;
+    margin: 2rem 0;
+}
+.button{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 130px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color: white;
+}
+.button.button-marvelRed {
+    background: #518cca;;
+    color: white;
+    border-color: #ffb000;
+    transition: all 0.5s ease-in-out;
+}
+
+/* when over the button, place marvelblue */
+.button.button-marvelRed:hover{
+    background: transparent;
+    border-color: #ffb000;
+    color: #518cca;
+}
+
+.button.button-marvelRed2{
+    background: #518cca;;
+    color: white;
+    border-color: #518cca;
+    transition: all 0.5s ease-in-out;
+}
+
+.button.button-marvelRed2:hover{
+    background: transparent;
+    border-color: white;
+    color: #518cca;
+}
+.about-paragraph p{
+    font-weight: 300;
+    padding: 0.5rem;
+    opacity: 0.8;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+nav {
+    background-color: white;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    color: #e23636;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav li a:hover {
+    background-color: #ffb000;
+  }
+  
+
+@media screen and (min-width: 992px){
+    .about-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    
+}
+
+
+
+

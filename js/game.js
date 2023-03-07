@@ -1,3 +1,13 @@
+// Player Command
+// const player1 = document.getElementById("player1").value;
+// const player2 = document.getElementById("player2").value;
+
+// // Player Results
+
+// if (matchedCards.length === cards.length) {
+//   alert(`Congratulations! ${player1} and ${player2} won the game!`);
+// }
+
 // Array of Marvel character images
 const images = [  "ironman",  "blackWidow", "captainAmerica",  "loki",  "blackPanther",  "kang",  "ironman2",  "blackWidow2", "captainAmerica2",  "loki2",  "blackPanther2",  "kang2",  ];
 

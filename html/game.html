@@ -23,20 +23,36 @@
   <!-- Players --- Players --- Players -- Players -- Players
     Players --- Players --- Players -- Players -- Players
     Players --- Players --- Players -- Players -- Players -->
-
-    <!-- <div>
-      <label for="player1">Player 1:</label>
-      <input type="text" id="player1" placeholder="Enter player name">
-    </div>
   
+  
+  
+  <div>
+    <label for="player1">Player 1:</label>
+    <input type="text" id="player1" placeholder="Enter player name">
+  </div>
+  <div>
+    <label for="player2">Player 2:</label>
+    <input type="text" id="player2" placeholder="Enter player name">
+  </div>
+  <div id="board"></div>
+  <div class="scoreboard">
     <div>
-      <label for="player2">Player 2:</label>
-      <input type="text" id="player2" placeholder="Enter player name">
-    </div> -->
+      <h2 id="player1-name"></h2>
+      <p>Score: <span id="player1-score">0</span></p>
+    </div>
+    <div>
+      <h2 id="player2-name"></h2>
+      <p>Score: <span id="player2-score">0</span></p>
+    </div>
+  </div>
+
+    
+      <!-- Card Container --- Card Container -- Card Container 
+      Card Container -- Card Containter -- Card Container -->
 
     <div class="card-container">
          <!-- ironMan -->
-        <div class="card card1">
+        <div class="card">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -47,7 +63,7 @@
         
         <!-- blackWidow -->
 
-        <div class="card card2">
+        <div class="card data-id="card2">
           <div class="side">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
           </div>
@@ -57,7 +73,7 @@
         </div>
 
         <!-- hulk -->
-        <div class="card card3">
+        <div class="card data-id="card3">
           <div class="side">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
           </div>
@@ -67,7 +83,7 @@
         </div>
 
            <!-- captainAmerica-->
-        <div class="card card4">
+        <div class="card data-id="card4">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -77,7 +93,7 @@
           </div>
 
            <!-- loki-->
-        <div class="card card5">
+        <div class="card data-id="card5">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -85,9 +101,10 @@
               <img src="https://helios-i.mashable.com/imagery/articles/027ZLcMQI6R9riOjrd4F7zO/hero-image.fill.size_1200x1200.v1626284013.jpg" alt="loki">
           </div>
           </div>
+      
 
            <!-- antMan -->
-        <div class="card card6">
+        <div class="card data-id="card6">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -97,7 +114,7 @@
           </div>
 
            <!-- blackPanther -->
-        <div class="card card7">
+        <div class="card data-id="card7">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -106,7 +123,7 @@
           </div>
           </div>
            <!-- kang -->
-        <div class="card card8">
+        <div class="card data-id="card8">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -116,7 +133,7 @@
           </div>
 
            <!-- ironMan2 -->
-        <div class="card card9">
+        <div class="card data-id="card9">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -126,7 +143,7 @@
           </div>
         
         <!-- blackWidow2 -->
-        <div class="card card10">
+        <div class="card data-id="card10">
           <div class="side">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
           </div>
@@ -136,7 +153,7 @@
         </div>
 
         <!-- hulk2 -->
-        <div class="card card2">
+        <div class="card data-id="card2">
           <div class="side">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
           </div>
@@ -146,7 +163,7 @@
         </div>
 
            <!-- captainAmerica2 -->
-        <div class="card card12">
+        <div class="card data-id="card12">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -156,7 +173,7 @@
           </div>
 
            <!-- loki2 -->
-        <div class="card card13">
+        <div class="card data-id="card13">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -166,7 +183,7 @@
           </div>
 
            <!-- antMan2 -->
-        <div class="card card14">
+        <div class="card data-id="card14">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -176,7 +193,7 @@
           </div>
 
            <!-- blackPanther2 -->
-        <div class="card card15">
+        <div class="card data-id="card15">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -185,7 +202,7 @@
           </div>
           </div>
            <!-- kang -->
-        <div class="card card16">
+        <div class="card data-id="card16">
             <div class="side">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" alt="marvelLogo">
             </div>
@@ -193,8 +210,7 @@
               <img src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/2022/12/kang-the-conqueror.jpg" alt="kang">
           </div>
           </div>
-
       </div>
 
 </body>
-</html>      
+</html>        

@@ -21,23 +21,70 @@
   <tr>
     <th>MVP/Stretch</th>
     <th>Description</th>
-    <th>MVP</th>
+    <th>Completion</th>
   </tr>
+  <tr>
+    <td>MVP</td>
     <td>The game consists of 16 cards with 8 pairs of Marvel characters.</td>
-    <td>MVP: The cards are initially displayed face down and you can flip them over by clicking on them.</td>
-    <td>MVP: You can only select two cards at a time.</td>
-    <td>MVP: If the selected cards are a match, they will stay face up.</td>
-    <td>MVP: If the selected cards are not a match, they will flip back over.</td>
-    <td>MVP: The game ends when all pairs have been matched.</td>
-    <td>Stretch: There will be two sub-pages that provide more information about the game. I.e. Developer Info, Fun Facts.
-    <td>Stretch:The game will include sound for when the cards are flipped over.
-    <td>Stretch: The game will include an error sound message when the players select the wrong cards.</td>
-    <td>Stretch: You will be able to enter a name for your player.</td>
-    <td>Stretch: An alert with a throphy announcing the winner.</td>
-    <td>Stretch: The cards will turn green and shake whenever there is a match.</td>
-    <td>Stretch: the cards will turn red and make an error sound if it's incorrect.</td>
-    </tr>
-    </table>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>MVP</td>
+    <td>The cards are initially displayed face down and you can flip them over by clicking on them.</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>MVP</td>
+    <td>You can only select two cards at a time.</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>MVP</td>
+    <td>If the selected cards are a match, they will stay face up.</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>MVP</td>
+    <td>If the selected cards are not a match, they will flip back over.</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>MVP</td>
+    <td>The game ends when all pairs have been matched.</td>
+    <td>Yes</td>
+  </tr>
+  
+    <tr>
+    <td>Stretch</td>
+    <td>The game will include an error sound message when the players select the wrong cards.</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Stretch</td>
+    <td>There will be two sub-pages that provide more information about the game. I.e. Developer Info, Fun Facts.</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Stretch</td>
+    <td>The game will include sound for when the cards are flipped over.</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Stretch</td>
+    <td>The game will include an error sound message when the players select the wrong cards.</td>
+    <td>No</td>
+  </tr>
+ 
+   <tr>
+    <td>Stretch</td>
+    <td>You will be able to enter a name for your player.</td>
+    <td>Yes</td>
+  </tr>
+ 
+  
+  
+</table>
+
 
 <h2>Extra:</h2>
 <p>I plan to explore utilizing an Array to structure the cards</p>
@@ -53,5 +100,5 @@
   },
   ];</code>
 
-  
+
 

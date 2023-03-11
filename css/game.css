@@ -1,4 +1,4 @@
-/* old code */
+
 body {
   font: 600 14px/24px "Open Sans", Sans-Serif;
   margin: 12px 0;
@@ -62,7 +62,7 @@ body {
 }
 
 .card.error {
-  background-color: red;
+  background-color: #e23636;
 }
 
 .card.flip {
@@ -102,17 +102,22 @@ nav li a:hover {
 #player1-display {
   background-color: #ffb000;
   text-align: center;
+  font-size: 24px;
 }
 
 #player2-display {
   background-color: #ffb000;
   text-align: center;
+  font-size: 24px;
 }
 
 .scoreboard {
     display: left;
     justify-content: space-between;
     margin-top: 20px;
+    background-color: #e23636;
+    color: whitesmoke;
+    font-size: 24px;
   }
 
 @media screen and (max-width: 700px) {

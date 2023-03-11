@@ -30,7 +30,7 @@
     <td>MVP: If the selected cards are not a match, they will flip back over.</td>
     <td>MVP: The game ends when all pairs have been matched.</td>
     <td>Stretch: There will be two sub-pages that provide more information about the game. I.e. Developer Info, Fun Facts.
-    <td>Stretch:The game will include sound for when the cards are flipped over.</td>
+    <td>Stretch:The game will include sound for when the cards are flipped over.
 Stretch
 The game will include an error sound message when the players select the wrong cards.
 Stretch

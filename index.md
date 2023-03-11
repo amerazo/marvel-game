@@ -14,10 +14,10 @@
 <br>
 <h2>Wireframes</h2>
 <p>Please click on the images below</p>
-<a href="https://imgur.com/a/RAm2tZb">
-  <img src="https://i.imgur.com/3qQgDfA.jpg" alt="Example image">
+<a href="https://i.imgur.com/m81TtD2.png">
+  <img src="https://i.imgur.com/m81TtD2.png" alt="Example image">
 </a>
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/RAm2tZb"  ><a href="//imgur.com/a/RAm2tZb">Marvel</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 <h2>User Stories</h2>
 <p>This is a memory matching game with a Marvel character theme built using HTML, CSS, and JavaScript.</p>
 <table>

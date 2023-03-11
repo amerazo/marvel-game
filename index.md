@@ -1,19 +1,19 @@
 <h1> marvel-game </h1>
 
-Project Description
-This Marvel themed memory matcher game is a common game played with a set of cards. The game starts with all the cards face down and the two players will take turns turning over two cards at a time trying to find its pair. If the two cards selected have the same picture, the player will get a point, otherwise the cards will be turned face down again and the opposing opponent will have a chance to select two cards trying to find a pair. The winner is the person with the most cards when all the cards have been taken.
+<h2> Project Description <h2>
+<p>This Marvel themed memory matcher game is a common game played with a set of cards. The game starts with all the cards face down and the two players will take turns turning over two cards at a time trying to find its pair. If the two cards selected have the same picture, the player will get a point, otherwise the cards will be turned face down again and the opposing opponent will have a chance to select two cards trying to find a pair. The winner is the person with the most cards when all the cards have been taken.</p>
 
-How To Play
-Select "Begin"
+<h2>How To Play</h2>
+<p>Select "Begin"
 "Player One" will begin the game. "Player One" will need to select two cards by clicking into the square and attempt to make them match.
 If "Player One" selects two cards that match, they will collect a point. If "Player One" selects the incorrect cards, they will not collect a point.
 After "Player One" finalizes their turn, "Player Two" is now instructed to select two cards by clicking into the square and attempt to make them match.
 If "Player Two" selects two cards that match, they will collect a point. If "Player Two" selects the incorrect cards, they will not collect a point.
 The player towards the conclusion of the game who collects the most points is declared the winner by having their status changed to "Winner."
-Wireframes
+Wireframes</p>
 
 
-User Stories
+<h2>User Stories</h2>
 This is a memory matching game with a Marvel character theme built using HTML, CSS, and JavaScript.
 MVP/Stretch
 Description
@@ -44,7 +44,7 @@ The cards will turn green and shake whenever there is a match.
 Stretch
 the cards will turn red and make an error sound if it's incorrect.
 
-Extra:
+<h2>Extra:</h2>
 I plan to explore utilizing an Array to structure the cards. Example:
 const cardsArray = [
   {

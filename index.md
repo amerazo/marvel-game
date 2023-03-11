@@ -13,7 +13,12 @@
 <li>The player towards the conclusion of the game who collects the most points is declared the winner by having their status changed to "Winner."</li></p>
 <br>
 <h2>Wireframes</h2>
-
+<a href="https://example.com">
+  <img src="https://example.com/image.jpg" alt="Example image">
+</a>
+<a href="https://example.com">
+  <img src="https://example.com/image.jpg" alt="Example image">
+</a>
 
 <h2>User Stories</h2>
 <p>This is a memory matching game with a Marvel character theme built using HTML, CSS, and JavaScript.</p>

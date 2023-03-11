@@ -2,7 +2,8 @@
 
 <h2> Project Description </h2>
 <p>This Marvel themed memory matcher game is a common game played with a set of cards. The game starts with all the cards face down and the two players will take turns turning over two cards at a time trying to find its pair. If the two cards selected have the same picture, the player will get a point, otherwise the cards will be turned face down again and the opposing opponent will have a chance to select two cards trying to find a pair. The winner is the person with the most cards when all the cards have been taken.</p>
-
+<p><b>Live Page: https://amerazo.github.io/marvel-game/ <p>
+<p><b>Google Presentation: https://docs.google.com/presentation/d/1fyCAazOzYaRG9ks41YeAnVrqMdl2XSObqLwJzAAbt_Y/edit?usp=sharing</p>
 <h2>How To Play</h2>
 <p><ol>
   <li>Select "Begin"</li>

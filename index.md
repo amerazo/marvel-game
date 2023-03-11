@@ -53,7 +53,6 @@
     <td>The game ends when all pairs have been matched.</td>
     <td>Yes</td>
   </tr>
-  
     <tr>
     <td>Stretch</td>
     <td>The game will include an error sound message when the players select the wrong cards.</td>
@@ -67,7 +66,7 @@
   <tr>
     <td>Stretch</td>
     <td>The game will include sound for when the cards are flipped over.</td>
-    <td>Yes</td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Stretch</td>

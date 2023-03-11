@@ -98,19 +98,5 @@
 </table>
 
 
-<h2>Extra:</h2>
-<p>I plan to explore utilizing an Array to structure the cards</p>
-<br>Example:</br>
-<code>const cardsArray = [
-  {
-    'name': 'captain-america',
-    'img': 'captain-america.png',
-  },
-  {
-    'name': 'iron-man',
-    'img': 'iron-man.png',
-  },
-  ];</code>
-
-
-
+<h2>Technologies Used</h2>
+<p>JavaScript, HTML, CSS</p>

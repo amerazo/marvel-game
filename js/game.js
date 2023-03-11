@@ -1,3 +1,6 @@
+
+
+
 const player1Input = document.getElementById("player1");
 const player2Input = document.getElementById("player2");
 
@@ -39,6 +42,8 @@ const shuffledImages = [...images, ...images].sort(() => Math.random() - 0.5);
 let flippedCards = [];
 let matchedCards = [];
 
+let currentPlayerScoreCount = 0;
+
 const cards = document.querySelectorAll(".card");
 
 cards.forEach((card) => {
@@ -56,15 +61,8 @@ cards.forEach((card) => {
           matchedCards.push(...flippedCards);
           flippedCards = [];
 
-          if (matchedCards.length === cards.length) {
-            if (player1ScoreCount > player2ScoreCount) {
-              alert(`${player1Input.value} Wins! Refresh the game to play again!`);
-            } else if (player1ScoreCount < player2ScoreCount) {
-              alert(`${player2Input.value} Wins! Refresh the game to play again!`);
-            } else {
-              alert("It's a Tie! Refresh the game to play again!");
-            }
-          }
+          currentPlayerScoreCount++;
+          document.getElementById("player" + currentPlayer + "-score").textContent = currentPlayerScoreCount;
         } else {
           new Audio("errorSoundGoesHere.mp3").play();
           setTimeout(() => {
@@ -73,16 +71,14 @@ cards.forEach((card) => {
             });
             flippedCards = [];
 
-            if (player1ScoreCount === player2ScoreCount) {
-              player2ScoreCount++;
-              player1ScoreDisplay.textContent = player1ScoreCount;
-              player2ScoreDisplay.textContent = player2ScoreCount;
+            if (currentPlayer === 1) {
+              currentPlayer = 2;
+              currentPlayerScoreCount = 0;
               document.getElementById("player1-name").textContent = player1Input.value;
               document.getElementById("player2-name").textContent = player2Input.value;
             } else {
-              player1ScoreCount++;
-              player1ScoreDisplay.textContent = player1ScoreCount;
-              player2ScoreDisplay.textContent = player2ScoreCount;
+              currentPlayer = 1;
+              currentPlayerScoreCount = 0;
               document.getElementById("player1-name").textContent = player1Input.value;
               document.getElementById("player2-name").textContent = player2Input.value;
             }
@@ -92,3 +88,7 @@ cards.forEach((card) => {
     }
   });
 });
+
+let currentPlayer = 1;
+document.getElementById("player1-name").textContent = player1Input.value;
+document.getElementById("player2-name").textContent = player2Input.value;

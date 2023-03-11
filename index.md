@@ -31,20 +31,18 @@
     <td>MVP: The game ends when all pairs have been matched.</td>
     <td>Stretch: There will be two sub-pages that provide more information about the game. I.e. Developer Info, Fun Facts.
     <td>Stretch:The game will include sound for when the cards are flipped over.
-Stretch
-The game will include an error sound message when the players select the wrong cards.
-Stretch
-You will be able to enter a name for your player.
-Stretch
-An alert with a throphy announcing the winner.
-Stretch
-The cards will turn green and shake whenever there is a match.
-Stretch
-the cards will turn red and make an error sound if it's incorrect.
+    <td>Stretch: The game will include an error sound message when the players select the wrong cards.</td>
+    <td>Stretch: You will be able to enter a name for your player.</td>
+    <td>Stretch: An alert with a throphy announcing the winner.</td>
+    <td>Stretch: The cards will turn green and shake whenever there is a match.</td>
+    <td>Stretch: the cards will turn red and make an error sound if it's incorrect.</td>
+    </tr>
+    </table>
 
 <h2>Extra:</h2>
-I plan to explore utilizing an Array to structure the cards. Example:
-const cardsArray = [
+<p>I plan to explore utilizing an Array to structure the cards</p>
+<br>Example:</br>
+<code>const cardsArray = [
   {
     'name': 'captain-america',
     'img': 'captain-america.png',
@@ -53,5 +51,7 @@ const cardsArray = [
     'name': 'iron-man',
     'img': 'iron-man.png',
   },
-  ];
+  ];</code>
+
+  
 

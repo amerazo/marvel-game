@@ -13,11 +13,11 @@
 <li>The player towards the conclusion of the game who collects the most points is declared the winner by having their status changed to "Winner."</li></p>
 <br>
 <h2>Wireframes</h2>
-<a href="hhttps://imgur.com/a/RAm2tZb">
-  <img src="https://imgur.com/a/RAm2tZb" alt="Example image">
+<a href="https://imgur.com/gallery/RAm2tZb">
+  <img src="https://imgur.com/gallery/RAm2tZb" alt="Example image">
 </a>
-<a href="https://imgur.com/m81TtD2">
-  <img src="https://imgur.com/m81TtD2" alt="Example image">
+<a href="https://imgur.com/gallery/RAm2tZb">
+  <img src="https://imgur.com/gallery/RAm2tZb" alt="Example image">
 </a>
 
 <h2>User Stories</h2>

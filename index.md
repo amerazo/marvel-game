@@ -19,7 +19,11 @@
 <a href="https://i.imgur.com/fRsCP5D.png">
   <img src="https://i.imgur.com/fRsCP5D.png" alt="Example image">
 </a>
-
+<br>
+<h2>Color Schemes</h2>
+<a href="https://i.imgur.com/mtrTeLR.jpeg">
+  <img src="https://i.imgur.com/mtrTeLR.jpeg" alt="Example image">
+</a>
 <h2>User Stories</h2>
 <p>This is a memory matching game with a Marvel character theme built using HTML, CSS, and JavaScript.</p>
 <table>
